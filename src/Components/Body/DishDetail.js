@@ -20,7 +20,10 @@ const DishDetail = (props) => {
                     <h5 className="text-white text-center bg-dark">Customer Review</h5>
                     <LoadComments comments={props.comments}></LoadComments>
                     <hr />
-                    <CommentForm dishId={props.dish.id} />
+                    <CommentForm
+                        dishId={props.dish.id}
+                        addComment={props.addComment}
+                    />
                 </CardBody>
             </Card>
         </div>

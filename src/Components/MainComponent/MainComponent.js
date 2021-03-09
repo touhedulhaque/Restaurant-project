@@ -7,7 +7,7 @@ const MainComponent = () => {
     return (
         <div style={{
             backgroundImage: "url('https://i.pinimg.com/originals/d8/8a/ca/d88acacdd20c6e4af73520058cb85aca.jpg')",
-            backgroundColor: "beige", height: "1000px", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", backgroundRepeat: "no-repeat"
+            backgroundColor: "beige", height: "1000px", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed"
         }}>
             <Header />
             <Body />

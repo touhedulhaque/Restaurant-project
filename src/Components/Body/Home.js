@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Loading from './Loading/Loading';
+import TypeAnimation from './TypeAnimation';
+
 
 
 
@@ -10,7 +11,9 @@ class Home extends Component {
         document.title = "Restaurant"
         return (
             <div className="text-center mt-5 pt-5">
-                <Loading />
+                <h1 className="pt-5 text-white">Best American-Italian Restaurant in Town </h1>
+                <br />
+                <TypeAnimation />
             </div>
         );
     }
